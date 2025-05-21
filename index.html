@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -32,35 +35,43 @@
 
 
     <section id="about" class="about">
-        <h1 style="text-align: center; color: mediumvioletred; ">About</h1>
+        <h1 class="abouthead" style="text-align: center; color: mediumvioletred; ">About</h1>
         <div class="about-body">
-            <div class="imgdiv">
-                <img src="Images/photo.jpg" height="200px" width="200px">
+            <div data-aos="zoom-in" data-aos-duration="1000">
+                <div class="imgdiv">
+                    <img src="Images/photo.jpg" height="150px" width="150px">
+                </div>
             </div>
-            <div class="aboutdiv">
-                <h1>Priyanka</h1>
-                <h3>Java Full Stack Trainee</h3>
-                <a style="padding: 10px; font-size: 30px;" href="https://github.com/Priyagithub1997"><i
-                        class="fa-brands fa-github"></i></a>
+            <div data-aos="zoom-in" data-aos-duration="1000">
+                <div class="aboutdiv">
+                    <h1>Priyanka</h1>
+                    <h3>Java Full Stack Trainee</h3>
+                    <a style="padding: 10px; font-size: 30px;" href="https://github.com/Priyagithub1997"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
             </div>
     </section>
 
     <section id="education" class="education">
         <h1 style="text-align: center;color: mediumvioletred;">Education</h1>
+
+        <i class="fa-duotone fa-solid fa-graduation-cap educationcap"></i>
         <div class="education-body">
             <div>
-                <h2>BE - Computer Science Engineering</h2>
-                <h3>(2015-2019)</h3>
-                <h3>Einstein College of Engineering</h3>
-                <h3> Tirunelveli</h3>
+                <h2 data-aos="zoom-in-right" data-aos-duration="2000">BE - Computer Science Engineering</h2>
+                <h3 data-aos="zoom-in-right" data-aos-duration="2000">(2015-2019)</h3>
+                <h3 data-aos="zoom-in-right" data-aos-duration="2000">Einstein College of Engineering</h3>
+                <h3 data-aos="zoom-in-right" data-aos-duration="2000"> Tirunelveli</h3>
             </div>
 
-            <h2>Skilled and proficient
+            <h2 data-aos="zoom-in-left" data-aos-duration="3000">Skilled and proficient
                 entry-level website designer with dedication
                 to work and a demonstrated
                 ability in customer administration and satisfaction.
             </h2>
         </div>
+
     </section>
     <section id="skills" class="skills">
         <h1 style="text-align: center;color: mediumvioletred;">Skills </h1>
@@ -69,16 +80,16 @@
             <h1>Frontend</h1>
             <ul class="skills-list">
 
-                <li>HTML </li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>bootstrap</li>
+                <li data-aos="flip-left" data-aos-duration="1000">HTML </li>
+                <li data-aos="flip-left" data-aos-duration="1000">CSS</li>
+                <li data-aos="flip-left" data-aos-duration="1000">JS</li>
+                <li data-aos="flip-left" data-aos-duration="1000">bootstrap</li>
             </ul>
             <h1>Backend</h1>
             <ul class="skills-list">
 
-                <li>Springboot</li>
-                <li>Mysql</li>
+                <li data-aos="flip-left" data-aos-duration="1000">Springboot</li>
+                <li data-aos="flip-left" data-aos-duration="1000">Mysql</li>
 
 
             </ul>
@@ -90,16 +101,16 @@
 
         <div class="projects-body">
 
-            <a href="https://priyagithub1997.github.io/bigbasketwebsite/">
+            <a href="https://priyagithub1997.github.io/bigbasketwebsite/" data-aos="zoom-in-up">
                 <img src="Images/bigbasket.jpg" width="200px" height="100px">
             </a>
 
-            <a href=" https://priyagithub1997.github.io/organicproductwebsite/">
+            <a href=" https://priyagithub1997.github.io/organicproductwebsite/" data-aos="zoom-in-up">
                 <img src="Images/organicproducts.jpg" width="200px" height="100px">
             </a>
 
 
-            <a href=" https://priyagithub1997.github.io/vts-html-css-js/Images/index.html">
+            <a href=" https://priyagithub1997.github.io/vts-html-css-js/Images/index.html" data-aos="zoom-in-up">
                 <img src="Images/vetrilogo2.jpg" width="200px" height="100px">
             </a>
 
@@ -112,19 +123,27 @@
     <section id="contact" class="contact">
         <h1 style="text-align: center; color: mediumvioletred;">Contact</h1>
         <div class="contact-body">
-            <h2><i class="fa-duotone fa-solid fa-phone"></i> 6380584157</h2>
+            <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"><i
+                    class="fa-duotone fa-solid fa-phone"></i> 6380584157</h2>
             <a href="priyasaras97@gmail.com">
-                <h2><i class="fa-duotone fa-solid fa-envelope"></i>  priyasaras97@gmail.com</h2>
+                <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"><i
+                        class="fa-duotone fa-solid fa-envelope"></i> priyasaras97@gmail.com</h2>
             </a>
             <a href="https://github.com/Priyagithub1997">
-                <h2><i
-                    class="fa-brands fa-github"></i> https://github.com/Priyagithub1997</h2>
+                <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"><i class="fa-brands fa-github"></i>
+                    https://github.com/Priyagithub1997</h2>
             </a>
-            <h2><i class="fa-duotone fa-solid fa-location-dot"></i> Mukkudal-627 601</h2>
-            <h2>Tirunelveli</h2>
+            <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom"><i
+                    class="fa-duotone fa-solid fa-location-dot"></i> Mukkudal-627 601</h2>
+            <h2 data-aos="fade-up" data-aos-anchor-placement="center-bottom">Tirunelveli</h2>
         </div>
     </section>
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
 
 </html>
